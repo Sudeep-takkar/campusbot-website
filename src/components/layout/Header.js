@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { setupHeaderBg } from '../../assets/js/main';
-import Logo from './Logo';
+import logo from './../../assets/logo.jpg';
 
 class Header extends Component {
   componentDidMount() {
@@ -17,7 +17,8 @@ class Header extends Component {
             <div className="brand header-brand">
               <h1 className="m-0">
                 <Link to="/">
-                  <Logo /> {this.props.title}
+                  {/* <img src={logo} alt="Logo" /> */}
+                  {/* <Logo /> */}
                 </Link>
               </h1>
             </div>
